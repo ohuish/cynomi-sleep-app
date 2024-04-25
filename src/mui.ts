@@ -1,0 +1,6 @@
+'use client'
+export * from '@mui/material'
+export * from '@mui/material/styles'
+export * from '@mui/x-date-pickers'
+export { DataGrid } from '@mui/x-data-grid'
+export type { GridColDef, GridRowSelectionModel } from '@mui/x-data-grid'

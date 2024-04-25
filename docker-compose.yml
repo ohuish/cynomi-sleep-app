@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:16.2-alpine
+    environment:
+      - POSTGRES_USER=demo
+      - POSTGRES_PASSWORD=demo
+      - POSTGRES_DB=cynomi_sleep_app
+    ports:
+      - 5554:5432
+    volumes:
+      - db:/var/lib/postgresql/data
+
+volumes:
+  db:
