@@ -1,7 +1,7 @@
 # Cynomi Sleep App
 
 ## Set up
-This project require NodeJS and Docker.
+This project requires NodeJS and Docker.
 
 ```sh
 npm install
